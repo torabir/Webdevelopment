@@ -1,0 +1,25 @@
+# Ignorer node_modules-mappen
+node_modules/
+
+# Ignorer loggfiler
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorer miljøfiler som inneholder sensitive data
+.env
+.env.local
+.env.*.local
+
+# Ignorer IDE spesifikke filer
+.vscode/
+.idea/
+
+# Ignorer operativsystemfiler
+.DS_Store
+Thumbs.db
+
+# Ignorer byggfiler
+dist/
+build/
+
