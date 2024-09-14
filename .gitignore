@@ -1,5 +1,6 @@
-# Ignorer node_modules-mappen
+# Ignorer node_modules-mappen og .env-filen
 node_modules/
+.env 
 
 # Ignorer loggfiler
 npm-debug.log*
