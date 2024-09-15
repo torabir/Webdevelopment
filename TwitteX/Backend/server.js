@@ -1,31 +1,48 @@
-// Linje 5 - 30: Oppretter en express add som lytter til en spesifikk port
-// Linje 30 - 
+// --Oppretter en express app som lytter til en spesifikk port--
+const express = require('express');
+const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+const bodyParser = require('body-parser');
 
+// Last inn miljøvariabler fra .env-filen
+dotenv.config();
 
-// Importer nødvendige pakker
-const express = require('express'); // Express er et rammeverk for å lage APIer og håndtere HTTP-forespørsler.
-const mongoose = require('mongoose'); // Mongoose brukes til å koble til og håndtere MongoDB-databasen.
-const cors = require('cors'); // CORS lar serveren håndtere forespørsler fra andre domener (for frontend/backend-kommunikasjon).
-
-// Opprett en Express-applikasjon
+// Initialiser Express-appen
 const app = express();
 
-// Middleware som lar Express håndtere JSON-data i forespørselskroppen
-app.use(express.json());
+// Bruk body-parser for å parse JSON forespørsler
+app.use(bodyParser.json());
 
-// Aktiver CORS slik at APIet kan motta forespørsler fra frontend-applikasjoner på andre domener
-app.use(cors());
+// Importer ruter
+const authRoutes = require('./routes/auth'); // Sørg for at denne peker riktig
 
-// Definer en grunnleggende rute for å teste om serveren kjører
-app.get('/', (req, res) => {
-  res.send('Twitter Clone Backend is running'); // Returnerer en enkel melding når du besøker rot-URLen ("/").
+// Bruk ruter
+app.use('/api/auth', authRoutes);
+
+// Koble til MongoDB
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+})
+  .then(() => console.log('MongoDB connected'))
+  .catch(err => console.log('MongoDB connection error:', err));
+
+// Sett opp port fra miljøvariabel, eller bruk 5000 som standard
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
 
-// Definer porten serveren skal kjøre på (bruker miljøvariabelen PORT hvis den finnes, ellers 5000)
-const PORT = process.env.PORT || 5000;
 
-// Start serveren og lyt på den definerte porten
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`); // Logger til konsollen at serveren kjører.
-});
+// const dotenv = require('dotenv');
+// dotenv.config(); // Dette må være øverst, før du bruker process.env
+
+console.log('Server file loaded');
+console.log(process.env.MONGO_URI);
+console.log(process.env.PORT);
+console.log(process.env.JWT_SECRET);
+
+console.log('Mongo URI:', process.env.MONGO_URI);
+console.log('Port:', process.env.PORT);
+console.log('JWT Secret:', process.env.JWT_SECRET);
 
