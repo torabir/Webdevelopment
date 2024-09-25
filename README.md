@@ -15,11 +15,11 @@ git init
 git remote add origin <your-repo-url>
 git add .
 git commit -m "First commit"
-git push origin main  # "main" must be the branch name
+git push origin main  # "main" must be the branch name```
 ### If problems arise: 
-git branch --set-upstream-to=origin/main main
+```git branch --set-upstream-to=origin/main main
 git pull --rebase origin main
-git push origin main
+git push origin main```
 ### Navigate to backend folder
-npm init -y
-npm install express mongoose bcrypt jsonwebtoken cors socket.io
+```npm init -y
+npm install express mongoose bcrypt jsonwebtoken cors socket.io```
