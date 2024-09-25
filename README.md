@@ -1,10 +1,12 @@
 # Webdevelopment
-Full-stack web development. React, node.JS, mongoDB, JWT, Socket.IO, (Heroku, AWS, or DigitalOcean). 
+Full-stack web development. React, node.JS, mongoDB, JWT, Socket.IO, (Azure, Heroku, AWS, or DigitalOcean). 
 
 # Steps: 
 1. Make sure to install all the following dependencies: 
 
-jgdoignd ji0gd gdgd
+- ...
+- ...
+- ...
 
 2. Create environment(folder etc). Connect to github. Initiate npm. 
     git init
