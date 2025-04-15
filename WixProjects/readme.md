@@ -15,9 +15,9 @@ A simple business page used to present photos of storage rooms, information abou
 Built with Wix.
 
 ![](./Pictures/lagerhot1.png)
-![]()
-![]()
-![]()
+![](./Pictures/lagerhot2.png)
+![](./Pictures/lagerhot3.png)
+![](./Pictures/lagerhot4.png)
 
 ## Gåsehud konsertsere
 
