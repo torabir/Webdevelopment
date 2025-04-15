@@ -15,9 +15,18 @@ A simple business page used to present photos of storage rooms, information abou
 Built with Wix.
 
 ![](./Pictures/lagerhot1.png)
-![](./Pictures/lagerhot2.png)
-![](./Pictures/lagerhot3.png)
 ![](./Pictures/lagerhot4.png)
+
+## Think Against the Brain
+
+Link: https://tatb.wordpress.com/
+
+An artist page for the punk band Think Against the Brain.
+
+Built with WordPress.
+
+![](./Pictures/tatb1.png)
+![](./Pictures/tatb2.png)
 
 ## Gåsehud konsertsere
 
@@ -28,18 +37,6 @@ Christer Falch produced a concert series at Nordstrand Church featuring beloved 
 I had the pleasure of creating the website used to share concert information. It was occasionally updated with new lineups. 
 
 Built with Wix.
-
-Photo 1
-Photo 2
-
-## Think Against the Brain
-
-Link: 
-https://tatb.wordpress.com/
-
-An artist page for the punk band Think Against the Brain.
-
-Built with WordPress.
 
 Photo 1
 Photo 2
