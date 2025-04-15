@@ -6,7 +6,7 @@ Note: Not all of the websites are currently online.
 
 The sites were hosted using the website builders’ own hosting services.
 
-## Espeset Lagerhotell
+# Espeset Lagerhotell
 
 Link: https://espesetlagerhotell.no
 
@@ -17,7 +17,7 @@ Built with Wix.
 ![](./Pictures/lagerhot1.png)
 ![](./Pictures/lagerhot4.png)
 
-## Think Against the Brain
+# Think Against the Brain
 
 Link: https://tatb.wordpress.com/
 
@@ -30,7 +30,7 @@ Built with WordPress.
 ![](./Pictures/tatb1.png)
 ![](./Pictures/tatb2.png)
 
-## Gåsehud konsertsere
+# Gåsehud konsertsere
 
 Link: https://falck9.wixsite.com/gaasehud
 
