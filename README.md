@@ -1,5 +1,7 @@
 # Webdevelopment
-Full-stack web development. React, node.JS, mongoDB, JWT, Socket.IO, (Azure, Heroku, AWS, or DigitalOcean).
+Full-stack web development. React, next.js, typescript, node.js, mysql, Firebase, MUI, TailWind ... 
+
+? mongoDB, JWT, Socket.IO, (Azure, Heroku, AWS, or DigitalOcean)? 
 
 # Steps:
 ## 1. Make sure to install all the following dependencies:
