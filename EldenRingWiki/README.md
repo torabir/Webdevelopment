@@ -9,10 +9,12 @@ been working together.
 
 ## Demo
  
-Video demo on YouTube:  
-<a href="https://youtu.be/KJvx_y-m674" target="_blank">
-  <img src="./DemoPictures/videoDemo.png" alt="Se demo">
-</a>
+### Video demo on youtube: 
+
+[![Se demo](./DemoPictures/videoDemo.png)](https://youtu.be/KJvx_y-m674)
+
+###  Picutres: 
+
 ![](./DemoPictures/elden1.png)
 ![](./DemoPictures/elden2.png)
 ![](./DemoPictures/elden3.png)
