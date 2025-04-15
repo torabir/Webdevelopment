@@ -21,6 +21,8 @@ Built with Wix.
 
 Link: https://tatb.wordpress.com/
 
+Before: https://tatb.com/ (dead)
+
 An artist page for the punk band Think Against the Brain.
 
 Built with WordPress.
@@ -30,7 +32,9 @@ Built with WordPress.
 
 ## Gåsehud konsertsere
 
-https://gåsehud.no (dead)
+Link: https://falck9.wixsite.com/gaasehud
+
+Before: https://gåsehud.no/ (dead)
 
 Christer Falch produced a concert series at Nordstrand Church featuring beloved Norwegian musicians, including Bjørn Eidsvåg and others.
 
@@ -38,5 +42,8 @@ I had the pleasure of creating the website used to share concert information. It
 
 Built with Wix.
 
-Photo 1
-Photo 2
+![](./Pictures/g1.png)
+![](./Pictures/g2.png)
+![](./Pictures/g3.png)
+![](./Pictures/g4.png)
+![](./Pictures/g5.png)
