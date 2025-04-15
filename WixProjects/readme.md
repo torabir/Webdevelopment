@@ -14,8 +14,8 @@ A simple business page used to present photos of storage rooms, information abou
 
 Built with Wix.
 
-![](./Pictures/lagerhot1.png)
-![](./Pictures/lagerhot4.png)
+![](./DemoPictures/lagerhot1.png)
+![](./DemoPictures/lagerhot4.png)
 
 # Think Against the Brain - tatb.com
 
@@ -25,8 +25,8 @@ An artist page for the punk band Think Against the Brain.
 
 Built with WordPress.
 
-![](./Pictures/tatb1.png)
-![](./Pictures/tatb2.png)
+![](./DemoPictures/tatb1.png)
+![](./DemoPictures/tatb2.png)
 
 # Gåsehud.no - konsertserie
 
@@ -38,6 +38,6 @@ I had the pleasure of creating the website used to share concert information. It
 
 Built with Wix.
 
-![](./Pictures/g1.png)
-![](./Pictures/g4.png)
-![](./Pictures/g5.png)
+![](./DemoPictures/g1.png)
+![](./DemoPictures/g4.png)
+![](./DemoPictures/g5.png)
