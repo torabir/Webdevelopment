@@ -1,3 +1,6 @@
+// -- Database Connection (MongoDB) 
+// Setting up a MongoDB connection using Mongoose. --
+
 // Importer Mongoose-pakken for å håndtere MongoDB-tilkobling
 const mongoose = require('mongoose');
 

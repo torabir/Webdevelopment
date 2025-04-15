@@ -6,7 +6,7 @@ Full-stack web development. React, node.JS, mongoDB, JWT, Socket.IO, (Heroku, AW
 
 jgdoignd ji0gd gdgd
 
-2. Create environment(folder etc). Connect to github. Initiate npm. 
+2. Create environment(folders etc). Connect to github. Initiate npm. 
     git init
     git remote add origin
     git add . 
@@ -19,3 +19,24 @@ If problems arise:
 Go to backend-folder:   
     npm init -y
     npm install express mongoose bcrypt jsonwebtoken cors socket.io
+
+# Start MongoDB in the backbround: 
+    brew services start mongodb/brew/mongodb-community
+-- For å stoppe: 
+    brew services stop mongodb/brew/mongodb-community
+-- Bruk av MongoDB (shell): 
+    mongosh
+-- Sjekke om MongoDB kjører: 
+    brew services list
+
+
+
+kladd: 
+
+historie: 
+ 1069  npm install express mongoose bcrypt jsonwebtoken cors socket.io\n
+ 1149  npm install dotenv\n
+ 1206  npm install mongodb
+
+# Validering av brukerinndata (epost, riktig format etc): 
+ npm install express-validator
