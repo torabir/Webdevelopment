@@ -21,7 +21,9 @@ Our team met weekly in person and used online chat channels to communicate effec
 ## How to run the application
 
 cd futleie/frontend/futleie-app
+
 npm install
+
 npm run dev
 
 Visit: http://localhost:3000
