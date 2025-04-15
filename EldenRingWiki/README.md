@@ -46,16 +46,16 @@ git clone `https://github.com/torabir/WikiProject/`
 Open two terminals and locate the `/client` and `/server` folder. Node-modules are not included in the repository and must be installed according to the standards defined in package.json
 
 ##### Terminal 1
-../Wikiproject>
+
 ```sh
-cd client 
+cd EldenRingWiki/Project/client
 npm install
 ```
 
 ##### Terminal 2
-../Wikiproject>
+
 ```sh
-cd server
+cd EldenRingWiki/Project/server
 npm install
 ```
 
@@ -69,7 +69,7 @@ to create a dev-database (with data) and test-database (for testing). Paste thes
 ##### The alternative
 You can access the database directly by using the following username and password (do not abuse)
 
-username: `jorgefk_todo` and password: `passord`
+(removed)
 
 These variables must be pasted into the `config.ts` files (Explained in detail in step 4)
 
@@ -98,6 +98,25 @@ These environment variables will be used in the `server/src/mysql-pool.ts` file.
 
 Important: Database username and password was removed post production due to security measures. You will need to have your own database to properly use this website. 
 
+#### Step 5 - Start the application
+
+In each terminal, start the client and server:
+
+##### Terminal 1
+
+```sh
+cd EldenRingWiki/Project/client
+npm start
+```
+
+##### Terminal 2
+
+```sh
+cd EldenRingWiki/Project/server
+npm start
+```
+
+Go to https://localhost:3000/
 
 ### How to use the application
 This application is quite self-explanatory and we hope that navigating the GUI will be easy to learn and understand. When first booting up the application, you should make a user using the `login` button. Most functions are tied to your user, and the application will inform you that you cannot do these actions without being logged in. 
