@@ -8,11 +8,14 @@ This README will give instructions on how to set up the application as well as g
 been working together. 
 
 ## Demo
-
-[![Se demo](./DemoPictures/videoDemo.png)](https://youtu.be/KJvx_y-m674)
-![](./DemoPictures/elden1)
-![](./DemoPictures/elden2)
-![](./DemoPictures/elden3)
+ 
+Video demo on YouTube:  
+<a href="https://youtu.be/KJvx_y-m674" target="_blank">
+  <img src="./DemoPictures/videoDemo.png" alt="Se demo">
+</a>
+![](./DemoPictures/elden1.png)
+![](./DemoPictures/elden2.png)
+![](./DemoPictures/elden3.png)
 
 ### How we work: 
 
