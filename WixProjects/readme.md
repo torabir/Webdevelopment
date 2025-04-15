@@ -1,6 +1,6 @@
 # Overview
 
-### This folder contains real projects where I’ve built websites for clients using website builders such as Wix and WordPress.
+### This folder contains a preview of real projects where I’ve built websites for clients using website builders such as Wix and WordPress.
 
 Note: Not all of the websites are currently online.
 
