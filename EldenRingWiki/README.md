@@ -13,7 +13,7 @@ been working together.
 
 [![Se demo](./DemoPictures/videoDemo.png)](https://youtu.be/KJvx_y-m674)
 
-###  Picutres: 
+### Picutres: 
 
 ![](./DemoPictures/elden1.png)
 ![](./DemoPictures/elden2.png)
