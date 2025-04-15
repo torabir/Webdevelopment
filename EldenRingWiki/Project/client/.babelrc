@@ -1,0 +1,7 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-typescript", "@babel/preset-react"],
+  "highlightCode": false
+}
+
+// This is a preset configuration for Babel to transpile modern JavaScript (ES6+), TypeScript, and React JSX code. 
+// It ensures compatibility with different environments by transforming the code into a format that can run in older browsers or environments.

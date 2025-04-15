@@ -1,0 +1,423 @@
+/*Style for the banner in the top navbar*/
+.navbar-background {
+  background-image: url('/public/images/images/yeyeldenRING.png');
+  background-size: 120%;
+  background-position: center;
+  background-position-y: 15%;
+}
+/* some style for the youtube video, adding distance to the other elements and so on,  
+the video: https://www.youtube.com/watch?v=E3Huy2cdih0 
+w3schools youtube embedding: https://www.w3schools.com/html/html_youtube.asp*/
+.youTubeEmbed {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+/*For small text in the style of trademark-type-writings, used on the text under the youtube video on homepage*/
+.smallText {
+  font-family: sans-serif;
+  color: #de9c62;
+  font-size: small;
+}
+/*Effects of a glow and slight animation for the logo in the top left of the navbar*/
+.logoImageEffects {
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+
+/*Makes the logo swivel and expand on hover*/
+.logoImageEffects:hover {
+  box-shadow: 0 0 10px 5px #de9c62;
+  cursor: pointer;
+  transform: scale(1.05);
+  animation: swivel 0.5s ease;
+}
+/*A slight pop back when clicked on*/
+.logoImageEffects:active {
+  transform: scale(0.95);
+}
+/*A slight swivel animation for the logo in the navbar,found out how to do this from chatgpt*/
+@keyframes swivel {
+  0% {
+    transform: rotate(0deg) scale(1.05);
+  }
+  25% {
+    transform: rotate(10deg) scale(1.05);
+  }
+  50% {
+    transform: rotate(-10deg) scale(1.05);
+  }
+  75% {
+    transform: rotate(5deg) scale(1.05);
+  }
+  100% {
+    transform: rotate(0deg) scale(1.05);
+  }
+}
+/*Some previous inlined styles changed to css classes --------------------------------*/
+/* makes a css class from a previous inlined styles for the divs in the navbar */
+.flexCenterRelative {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.menuDiv {
+  padding: 5px;
+  cursor: pointer;
+}
+/*Style for when the search bar shows no results*/
+.searchNoResult {
+  padding: 5px;
+  color: #888;
+}
+/*Specifics for view-article images*/
+.currentPicture {
+  width: 100px;
+  height: auto;
+}
+/*Style for your current profile picture*/
+.currentProfilePicture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid black;
+}
+/*A generic black background for the furthest divs to hide the white that would appear at the back edges*/
+.blackBackground {
+  background-color: black;
+  color: #de9c62;
+  min-height: 100vh;
+}
+
+/*Image of a pretty starry background as seen in nokron in elden ring with accompanying styles*/
+.nokronBG {
+  background-image: url('/public/images/images/nokroneldenring.jpg');
+  background-size: 150%;
+  color: #de9c62;
+  font-family: 'Mantinia', sans-serif;
+  font-size: xx-large;
+}
+/**/
+.blackBackgroundLogin {
+  background-color: black;
+  color: #de9c62;
+  font-family: 'Mantinia', sans-serif;
+  font-size: xx-large;
+}
+/**/
+.divLoginBlack {
+  font-family: sans-serif;
+  color: #de9c62;
+  font-size: large;
+  background-color: black;
+}
+/**/
+.divLoginBlackWithBorder {
+  font-family: sans-serif;
+  color: #de9c62;
+  font-size: large;
+  background-color: black;
+  border-color: #de9c62;
+}
+/*A font we downloaded to be more in line with the elden ring font, mantinia 
+downloaded from: https://font.download/font/mantinia*/
+@font-face {
+  font-family: 'Mantinia';
+  src: url('/public/fonts/Mantinia.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Basic fontstyle with colors*/
+.FontStyle {
+  font-family: 'Mantinia', sans-serif;
+  color: #de9c62;
+  font-size: x-large;
+}
+/*Basic fontstyle but centered*/
+.CenteredFontStyle {
+  font-family: 'Mantinia', sans-serif;
+  color: #de9c62;
+  background-color: black;
+  font-size: xx-large;
+  justify-content: center;
+  align-items: center;
+  border-color: #de9c62;
+}
+/*Adds italics to text*/
+.fontStyleItalic {
+  font-style: italic;
+}
+/*Used for certain buttons and also the searchbar*/
+.TransparentSearch {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #de9c62;
+  border: none;
+  font-family: 'Mantinia', sans-serif;
+}
+.whiteBar {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #de9c62;
+  border: #de9c62;
+}
+/*Styles for positioning images on pages ---------------------------------*/
+/*Style used for centering the large wikilogo on the homepage*/
+.centeredImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Style used for correctly positioning the logo on the login-page*/
+.centeredLogo {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} /*Style for positioning an image to the right of the screen*/
+.right-side-image {
+  position: sticky;
+  margin-left: auto;
+  transform: translateY(-50%);
+  width: 600px;
+  height: auto;
+  padding: 10px;
+  border-radius: 15%;
+}
+/*Styles for some of our basic cards --------------------------*/
+/*Style for the basic black cards*/
+.basicCard {
+  color: #de9c62;
+  background-color: black;
+  border-color: #de9c62;
+}
+/*Style for the basic turquoise cards*/
+.TurquoiseCard {
+  color: #de9c62;
+  background-color: #193330;
+  border-color: #de9c62;
+}
+/*a variant of the turquoise card that required the font applied*/
+.TurquoiseCardWithFont {
+  color: #de9c62;
+  background-color: #193330;
+  border-color: #de9c62;
+  font-family: sans-serif;
+}
+/*accompanies the style above, but applies only to the h3 within it*/
+.TurquoiseCardWithFont h3 {
+  font-family: 'Mantinia', sans-serif;
+}
+/*A card with no accompanying style, complete darkness*/
+.totalBlackCard {
+  background-color: black;
+}
+/*Style for buttonsuccess, aka. our turquoise button*/
+.buttonTurquoise {
+  background-color: #193330;
+  color: #de9c62;
+  border-color: #de9c62;
+}
+/*Style for buttondanger, aka. our red button*/
+.buttonRed {
+  background-color: #3b130a;
+  color: #de9c62;
+  border-color: #de9c62;
+}
+/*Style for buttonBlack, aka. our black button*/
+.buttonBlack {
+  background-color: #030100cc;
+  color: #de9c62;
+  border-color: #de9c62;
+}
+/*Sets link color to generally be yellow*/
+a {
+  color: #c7a316e0;
+  text-decoration: underline;
+}
+/*For when ones mouse hovers over*/
+a:hover {
+  color: #d5c997e0;
+  cursor: pointer;
+}
+/*Sets the Font and style of the h3-headers*/
+h3 {
+  font-family: 'Mantinia', sans-serif;
+  color: #de9c62;
+  font-size: x-large;
+}
+/*The effects and style of the profile image plus username in the top navbar*/
+.profilEffects {
+  font-family: 'Mantinia', sans-serif;
+  color: #de9c62 !important;
+  font-size: x-large;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/*For when ones mouse hovers over the icon*/
+.profilEffects:hover {
+  box-shadow: 0 0 10px 5px #de9c62;
+  cursor: pointer;
+  color: #e4b892;
+  transform: scale(1.03);
+}
+/*for when one clicks the icon*/
+.profilEffects:active {
+  transform: scale(1);
+  color: #dcbf82;
+}
+/*styles making the alerts look like elden rings "you died" and "great enemy felled" messages ------------------*/
+/*The base style for the alerts that applies to all*/
+.alertStyle {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 36px;
+  font-weight: bold;
+  position: relative;
+  transition: all 0.3s ease;
+  font-family: garamond;
+  text-align: center;
+  position: fixed;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050;
+  width: 120%;
+  max-width: 2000px;
+}
+.alert-success {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #e0cc2e;
+}
+.alert-info {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: aquamarine;
+}
+.alert-warning {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #8d120e;
+}
+.alert-danger {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #8d120e;
+}
+/* styles for the quill editor-------------- */
+/*The editor itself, when writing for an article*/
+#editor {
+  color: black;
+  background-color: white;
+}
+/*The content from the editor when displayed after*/
+#quill-content {
+  color: rgb(192, 185, 185);
+  background-color: black !important;
+}
+#quill-content * {
+  color: inherit !important;
+  background-color: inherit !important;
+}
+#quill-content a {
+  color: #d2c17ce0 !important;
+}
+
+/*Style for the taglinks ----------------*/
+/* makes a button into text link. using this instead of navlink because of appearance preferences */
+.tagLinks {
+  background: none;
+  border: none;
+  color: #c7a316e0;
+  text-decoration: solid;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  display: inline-block;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+/* makes the tag names bigger and in front of everything else when hovered (and changing color)   */
+.tagLinks:hover {
+  color: #c7a316e0;
+  transform: scale(1.05);
+  z-index: 10;
+}
+.tagLinks::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #de9c62;
+  transition: width 0.3s ease;
+}
+.tagLinks:hover::after {
+  width: 100%;
+}
+/* Specifies presentation for the images used in articles */
+.articleImage img {
+  width: 20%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+/*Style for displaying different versions by different authors on viewarticle  page*/
+.articleVersions {
+  height: 100%;
+  min-height: 720px;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+/*Style used to show profile pictures of the people who have written comments*/
+.commentProfilePicture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid black;
+  object-fit: cover;
+  transition:
+    transform 0.3s ease,
+    width 0.3s ease,
+    height 0.3s ease;
+}
+/*When hovering over the profile pictures*/
+.commentProfilePicture:hover {
+  width: 55px;
+  height: 55px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+/*The "appraisal bar on the view article page"*/
+/* CSS used gotten from this video: https://www.youtube.com/watch?v=basf1lH1H-E, but changed for our purposes */
+.progress-bar {
+  position: relative;
+  width: 175px; /* Adjusted size */
+  height: 1.05em;
+  background-color: rgb(153, 35, 25); /* Unfilled part is red */
+  border: 2px solid black; /* Black border around the bar */
+  border-radius: 0.525em;
+  color: rgb(15, 14, 14);
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.4); /* Shadow for a glowing border effect */
+}
+.progress-bar::before {
+  content: attr(data-label);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: calc(var(--width, 0) * 1%);
+  background-color: rgb(12, 107, 12);
+  border-radius: 0.525em 0 0 0.525em;
+  color: rgb(17, 16, 16);
+  border-right: 2px solid rgba(17, 16, 16, 0.8);
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.4);
+}
