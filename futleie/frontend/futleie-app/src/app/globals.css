@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🎨 Definer fargevariabler */
+:root {
+  --dark-teal: #0f4c5c;
+  --arctic: #c7ecee;
+  --white: #ffffff;
+  --brick: #b33f00;
+  --black: #000000;
+
+  --background: var(--arctic);
+  --foreground: var(--dark-teal);
+  --accent: var(--brick);
+  --text: var(--dark-teal);
+}
+
+/* 🎨 Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--dark-teal);
+    --foreground: var(--arctic);
+    --text: var(--white);
+  }
+}
+
+/* 🎨 Bruk fargene på hele siden */
+body {
+  color: var(--text);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 🎨 Stilige knapper */
+.button {
+  background-color: var(--accent);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #8b2f00; /* Mørkere brick */
+}
+
+/* 🎨 Kort-styling */
+.card {
+  background-color: var(--white);
+  color: var(--dark-teal);
+  border: 2px solid var(--dark-teal);
+  border-radius: 10px;
+  padding: 16px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
