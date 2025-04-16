@@ -167,7 +167,7 @@ There are several choices made in this wiki that reflect the nature of the Elden
 ### Additional information: 
 
 #### Testing
-If you would like to request access to the database, feel free to contact us at magnolan@stud.ntnu.no or send us a private message through any other social-media. Another solution is to copy our database-structure (can be found in DB_setup) and populate it with your own data.
+If you would like to request access to the database, feel free to contact us throgh torarne.94@gmail.com or send us a private message through any other social-media. Another solution is to copy our database-structure (can be found in DB_setup) and populate it with your own data.
 
 If you would like to run the extensive server and client-side tests that we have provided, go to `../server` (for server tests) and `../client` (for client tests) and run the following script: 
 
