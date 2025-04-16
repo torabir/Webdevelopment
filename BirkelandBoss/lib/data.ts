@@ -7,7 +7,7 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
-  {u
+  {
     name: "Home",
     hash: "#home",
   },

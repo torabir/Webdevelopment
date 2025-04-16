@@ -24,3 +24,6 @@ Thumbs.db
 dist/
 build/
 
+# Andre filer: 
+
+resendKey.ts
