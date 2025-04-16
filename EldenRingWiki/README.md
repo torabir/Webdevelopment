@@ -4,6 +4,10 @@ This is the README-file for the project in DCST2002 - Webutvikling.
 We are a team of 5 (Jørgen, Tor Arne, Aleksandrs, Martin og Magnus) and have created a wiki for the popular
 game Elden Ring. 
 
+This fullstack application is built using React and TypeScript on the client side, bundled with Webpack. Routing is handled by `react-router-dom`, and HTTP communication is performed using `axios`. We also use `react-simplified`, a lightweight abstraction developed by our course lecturer to simplify routing and state handling in React. All UI components are based on simplified component templates provided by the lecturer, which we have customized and extended to fit our project needs.
+
+The backend is developed in Node.js with Express and TypeScript, with authentication handled by `passport-local` and sessions stored via `express-session`. Real-time features (e.g. collaborative editing) are supported using WebSocket. For testing, we use Jest, React Testing Library, and Enzyme.
+
 This README will give instructions on how to set up the application as well as give an overview of how we have
 been working together. 
 
