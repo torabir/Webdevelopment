@@ -27,3 +27,12 @@ build/
 # Andre filer: 
 
 resendKey.ts
+
+# Old/duplicate projects — removed from this repo for portfolio tidiness,
+# kept locally on disk.
+Birkeland-portfolio/
+TwitteX/
+torlikethegod/
+next-template/
+BirkelandBoss*/
+BACKUP_BirkelandBoss*/
