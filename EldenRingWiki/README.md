@@ -13,9 +13,9 @@ been working together.
 
 ## Demo
  
-### Video demo on youtube: 
+### Live demo
 
-[![Se demo](./DemoPictures/videoDemo.png)](https://youtu.be/KJvx_y-m674)
+**[eldenringwikidemo.eu](https://eldenringwikidemo.eu/)**
 
 ### Picutres: 
 
